@@ -34,9 +34,4 @@ int longestConsecutive(vector<int>& nums)
     return longestStreak;
 }
 
-int main()
-{
-    vector<int> number = {100,4,200,1,3,2};
-    cout << "Answer: " << longestConsecutive(number) << endl;
-    return 0;
-}
+
